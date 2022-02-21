@@ -1,6 +1,6 @@
 # bqsub - Documentation
 
-This documentation serves as an overview of various snapshots of bibliometric databases provided on Google BigQuery by the SUB Göttingen.
+This documentation serves as an overview of bibliometric data provided on Google BigQuery by the SUB Göttingen.
 
 
 ## Status Crossref
