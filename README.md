@@ -26,16 +26,16 @@ This documentation serves as an overview of bibliometric data provided on Google
 
 | Snapshot| File                                          | Table                | Schema               | Procedure | Last Changed | Coverage  |
 |---------|-----------------------------------------------|----------------------|----------------------|-----------|--------------|-----------|
-| 2021/07 | unpaywall_snapshot_2021-07-02T151134.jsonl.gz | upw_instant.snapshot | bq_schema_jul21.json |           |  30.10.2021  | 2008-2021 |
+| 2021/07 | unpaywall_snapshot_2021-07-02T151134.jsonl.gz | upw_instant.snapshot | bq_schema_jul21.json | [Repo](https://github.com/naustica/unpaywall_bq) |  30.10.2021  | 2008-2021 |
 
 ### Historical Snapshots (upw_history)
 
 | Snapshot| File                                          | Table                       | Schema               | Procedure | Last Changed | Coverage  |
 |---------|-----------------------------------------------|-----------------------------|----------------------|-----------|--------------|-----------|
-| 2018/03 | unpaywall_snapshot_2018-03-29T113154.jsonl.gz | upw_history.upw_Mar18_08_20 | bq_schema_mar18.json |           |  29.10.2021  | 2008-2018 |
-| 2019/02 | unpaywall_snapshot_2019-02-21T031509.jsonl.gz | upw_history.upw_Feb19_08_19 | bq_schema_feb19.json |           |  10.11.2021  | 2008-2019 |
-| 2020/02 | unpaywall_snapshot_2020-02-25T115244.jsonl.gz | upw_history.upw_Feb20_08_20 | bq_schema_feb20.json |           |  30.10.2021  | 2008-2020 |
-| 2021/02 | unpaywall_snapshot_2021-02-18T160139.jsonl.gz | upw_history.upw_Feb21_08_21 | bq_schema_feb21.json |           |  29.10.2021  | 2008-2021 |
+| 2018/03 | unpaywall_snapshot_2018-03-29T113154.jsonl.gz | upw_history.upw_Mar18_08_20 | bq_schema_mar18.json | [Repo](https://github.com/naustica/unpaywall_bq) |  29.10.2021  | 2008-2018 |
+| 2019/02 | unpaywall_snapshot_2019-02-21T031509.jsonl.gz | upw_history.upw_Feb19_08_19 | bq_schema_feb19.json | [Repo](https://github.com/naustica/unpaywall_bq) |  10.11.2021  | 2008-2019 |
+| 2020/02 | unpaywall_snapshot_2020-02-25T115244.jsonl.gz | upw_history.upw_Feb20_08_20 | bq_schema_feb20.json | [Repo](https://github.com/naustica/unpaywall_bq) |  30.10.2021  | 2008-2020 |
+| 2021/02 | unpaywall_snapshot_2021-02-18T160139.jsonl.gz | upw_history.upw_Feb21_08_21 | bq_schema_feb21.json | [Repo](https://github.com/naustica/unpaywall_bq) |  29.10.2021  | 2008-2021 |
 
 ## Status Openalex
 
