@@ -26,7 +26,7 @@ This documentation serves as an overview of bibliometric data provided on Google
 
 | Snapshot| File                                          | Table                | Schema               | Procedure | Last Changed | Coverage  | Number of rows |
 |---------|-----------------------------------------------|----------------------|----------------------|-----------|--------------|-----------|-----------------|
-| 2021/02 | unpaywall_snapshot_2022-03-09T083001.jsonl.gz | upw_history.upw_Mar22_08_22 | bq_schema_mar22.json | [Repo](https://github.com/naustica/unpaywall_bq) |  14.03.2022 | 2008-2022 | 67.424.819 |
+| 2022/03 | unpaywall_snapshot_2022-03-09T083001.jsonl.gz | upw_instant.snapshot | bq_schema_mar22.json | [Repo](https://github.com/naustica/unpaywall_bq) |  14.03.2022 | 2008-2022 | 67.424.819 |
 
 ### Historical Snapshots (upw_history)
 
@@ -36,7 +36,7 @@ This documentation serves as an overview of bibliometric data provided on Google
 | 2019/02 | unpaywall_snapshot_2019-02-21T031509.jsonl.gz | upw_history.upw_Feb19_08_19 | bq_schema_feb19.json | [Repo](https://github.com/naustica/unpaywall_bq) |  10.11.2021  | 2008-2019 | 42.143.979 |
 | 2020/02 | unpaywall_snapshot_2020-02-25T115244.jsonl.gz | upw_history.upw_Feb20_08_20 | bq_schema_feb20.json | [Repo](https://github.com/naustica/unpaywall_bq) |  30.10.2021  | 2008-2020 | 49.717.710 |
 | 2021/02 | unpaywall_snapshot_2021-02-18T160139.jsonl.gz | upw_history.upw_Feb21_08_21 | bq_schema_feb21.json | [Repo](https://github.com/naustica/unpaywall_bq) |  29.10.2021  | 2008-2021 | 58.437.927 |
-| 2021/02 | unpaywall_snapshot_2022-03-09T083001.jsonl.gz | upw_history.upw_Mar22_08_22 | bq_schema_mar22.json | [Repo](https://github.com/naustica/unpaywall_bq) |  14.03.2022 | 2008-2022 | 67.424.819 |
+| 2022/03 | unpaywall_snapshot_2022-03-09T083001.jsonl.gz | upw_history.upw_Mar22_08_22 | bq_schema_mar22.json | [Repo](https://github.com/naustica/unpaywall_bq) |  14.03.2022 | 2008-2022 | 67.424.819 |
 
 ## Status Openalex
 
