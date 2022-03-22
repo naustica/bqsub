@@ -238,7 +238,13 @@
                 "name": "institutions",
                 "type": "RECORD",
                 "description": ""
-        }
+        },
+        {
+            "mode": "NULLABLE",
+            "name": "raw_affiliation_string",
+            "type": "STRING",
+            "description": "This author's affiliation as it originally came to us (on a webpage or in an API), as a raw unformatted string."
+        },
     ],
         "mode": "REPEATED",
         "name": "authorships",
@@ -469,6 +475,12 @@
     "description": "The last time anything in this Work object changed, expressed as an ISO 8601 date string. This date is updated for any change at all, including increases in various counts.",
     "mode": "NULLABLE",
     "name": "updated_date",
+    "type": "STRING"
+  },
+  {
+    "description": "The date this Work object was created in the OpenAlex dataset, expressed as an ISO 8601 date string.",
+    "mode": "NULLABLE",
+    "name": "created_date",
     "type": "STRING"
   }
 ]
