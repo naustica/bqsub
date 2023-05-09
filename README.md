@@ -20,7 +20,7 @@ This documentation serves as an overview of bibliometric data provided on Google
 |  2020/04        | all.json.tar.gz | cr_history.cr_apr20 | schema_crossref.json | [Repo](https://github.com/naustica/crossref_bq) |  29.10.2021  | 2013-2020 | 25.334.525 |
 |  2021/04        | all.json.tar.gz | cr_history.cr_apr21 | schema_crossref.json | [Repo](https://github.com/naustica/crossref_bq) |  29.10.2021  | 2013-2021 | 30.579.119 |
 |  2022/04        | all.json.tar.gz | cr_history.cr_apr22 | schema_crossref.json | [Repo](https://github.com/naustica/crossref_bq) |  14.05.2022  | 2013-2022 | 35.939.195 |
-|  2023/04        | all.json.tar.gz | cr_instant.snapshot | schema_crossref.json | [Repo](https://github.com/naustica/crossref_bq) |  07.05.2023  | 2013-2023 | 41.767.461 |
+|  2023/04        | all.json.tar.gz | cr_history.cr_apr23 | schema_crossref.json | [Repo](https://github.com/naustica/crossref_bq) |  07.05.2023  | 2013-2023 | 41.767.461 |
 
 ## Status Unpaywall
 
@@ -44,7 +44,8 @@ This documentation serves as an overview of bibliometric data provided on Google
 
 | Snapshot   | Directory     | Table                 | Schema                            | Procedure | Last Changed | Coverage  | Number of rows |
 |------------|---------------|-----------------------|-----------------------------------|-----------|--------------|-----------|----------------------|
-| 2023-03-28 | authors/      | openalex.authors      | schema_openalex_author.json       | [Repo](https://github.com/naustica/openalex) |  05.04.2023  | All       | 135.360.159 |
-| 2023-03-28 | institutions/ | openalex.institutions | schema_openalex_institutions.json | [Repo](https://github.com/naustica/openalex) |  05.04.2023  | All       | 108.618 |
-| 2023-03-28 | sources/      | openalex.sources      | schema_openalex_sources.json      | [Repo](https://github.com/naustica/openalex) |  05.04.2023  | All       | 226.413 |
-| 2023-03-28 | works/        | openalex.works        | schema_openalex_work.json         | [Repo](https://github.com/naustica/openalex) |  05.04.2023  | All | 249.450.604 |
+| 2023-05-03 | authors/      | openalex.authors      | schema_openalex_author.json       | [Repo](https://github.com/naustica/openalex) |  09.05.2023  | All | 111.956.802 |
+| 2023-05-03 | institutions/ | openalex.institutions | schema_openalex_institutions.json | [Repo](https://github.com/naustica/openalex) |  09.05.2023  | All | 102.565 |
+| 2023-05-03 | sources/      | openalex.sources      | schema_openalex_sources.json      | [Repo](https://github.com/naustica/openalex) |  09.05.2023  | All | 231.144 |
+| 2023-05-03 | works/        | openalex.works        | schema_openalex_work.json         | [Repo](https://github.com/naustica/openalex) |  09.05.2023  | All | 239.690.211 |
+| 2023-05-03 | funders/      | openalex.funders      | schema_openalex_funders.json      | [Repo](https://github.com/naustica/openalex) |  09.05.2023  | All | 32.437 |
