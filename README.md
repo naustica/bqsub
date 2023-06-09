@@ -44,8 +44,8 @@ This documentation serves as an overview of bibliometric data provided on Google
 
 | Snapshot   | Directory     | Table                 | Schema                            | Procedure | Last Changed | Coverage  | Number of rows |
 |------------|---------------|-----------------------|-----------------------------------|-----------|--------------|-----------|----------------------|
-| 2023-05-03 | authors/      | openalex.authors      | schema_openalex_author.json       | [Repo](https://github.com/naustica/openalex) |  09.05.2023  | All | 111.956.802 |
-| 2023-05-03 | institutions/ | openalex.institutions | schema_openalex_institutions.json | [Repo](https://github.com/naustica/openalex) |  09.05.2023  | All | 102.565 |
-| 2023-05-03 | sources/      | openalex.sources      | schema_openalex_sources.json      | [Repo](https://github.com/naustica/openalex) |  09.05.2023  | All | 231.144 |
-| 2023-05-03 | works/        | openalex.works        | schema_openalex_work.json         | [Repo](https://github.com/naustica/openalex) |  09.05.2023  | All | 239.690.211 |
-| 2023-05-03 | funders/      | openalex.funders      | schema_openalex_funders.json      | [Repo](https://github.com/naustica/openalex) |  09.05.2023  | All | 32.437 |
+| 2023-06-02 | authors/      | openalex.authors      | schema_openalex_author.json       | [Repo](https://github.com/naustica/openalex) |  09.06.2023  | All | 122.483.603 |
+| 2023-06-02 | institutions/ | openalex.institutions | schema_openalex_institutions.json | [Repo](https://github.com/naustica/openalex) |  09.06.2023  | All | 102.565 |
+| 2023-06-02 | sources/      | openalex.sources      | schema_openalex_sources.json      | [Repo](https://github.com/naustica/openalex) |  09.06.2023  | All | 232.007 |
+| 2023-06-02 | works/        | openalex.works        | schema_openalex_work.json         | [Repo](https://github.com/naustica/openalex) |  09.06.2023  | All | 240.790.293 |
+| 2023-06-02 | funders/      | openalex.funders      | schema_openalex_funders.json      | [Repo](https://github.com/naustica/openalex) |  09.06.2023  | All | 32.437 |
