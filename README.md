@@ -9,7 +9,7 @@ This documentation serves as an overview of bibliometric data provided on Google
 
 | Snapshot        | File            | Table               | Schema               | Procedure | Last Changed | Coverage  | Number of rows |
 |-----------------|-----------------|---------------------|----------------------|-----------|--------------|-----------|--------------------|
-|  2023/06        | all.json.tar.gz | cr_instant.snapshot | schema_crossref.json | [Repo](https://github.com/naustica/crossref_bq) |  17.07.2023  | 2013-2023 | 42.763.926 |
+|  2023/07        | all.json.tar.gz | cr_instant.snapshot | schema_crossref.json | [Repo](https://github.com/naustica/crossref_bq) |  21.08.2023  | 2013-2023 | 43.251.423 |
 
 ### Historical Snapshots (cr_history)
 
