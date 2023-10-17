@@ -47,5 +47,5 @@ This documentation serves as an overview of bibliometric data provided on Google
 | 2023-09-20 | authors/      | openalex.authors      | schema_openalex_author.json       | [Repo](https://github.com/naustica/openalex) |  04.10.2023  | All | 92.840.725 |
 | 2023-09-21 | institutions/ | openalex.institutions | schema_openalex_institutions.json | [Repo](https://github.com/naustica/openalex) |  04.10.2023  | All | 102.567 |
 | 2023-09-21 | sources/      | openalex.sources      | schema_openalex_sources.json      | [Repo](https://github.com/naustica/openalex) |  04.10.2023  | All | 232.759 |
-| 2023-09-20 | works/        | openalex.works        | schema_openalex_work.json         | [Repo](https://github.com/naustica/openalex) |  04.10.2023  | All | 244.221.844 |
+| 2023-09-20 | works/        | openalex.works        | schema_openalex_work.json         | [Repo](https://github.com/naustica/openalex) |  17.10.2023  | All | 244.371.844 |
 | 2023-09-21 | funders/      | openalex.funders      | schema_openalex_funders.json      | [Repo](https://github.com/naustica/openalex) |  04.10.2023  | All | 32.436 |
