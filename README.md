@@ -44,9 +44,10 @@ This documentation serves as an overview of bibliometric data provided on Google
 
 | Snapshot   | Directory     | Table                 | Schema                            | Procedure | Last Changed | Coverage  | Number of rows |
 |------------|---------------|-----------------------|-----------------------------------|-----------|--------------|-----------|----------------------|
-| 2024-01-24 | authors/      | openalex.authors      | schema_openalex_author.json       | [Repo](https://github.com/naustica/openalex) |  02.02.2024  | All | 90.079.708 |
-| 2024-01-25 | institutions/ | openalex.institutions | schema_openalex_institutions.json | [Repo](https://github.com/naustica/openalex) |  02.02.2024  | All | 106.631 |
-| 2024-01-25 | sources/      | openalex.sources      | schema_openalex_sources.json      | [Repo](https://github.com/naustica/openalex) |  02.02.2024  | All | 250.686 |
-| 2024-01-24 | works/        | openalex.works        | schema_openalex_work.json         | [Repo](https://github.com/naustica/openalex) |  02.02.2024  | All | 248.072.830 |
-| 2024-01-25 | funders/      | openalex.funders      | schema_openalex_funders.json      | [Repo](https://github.com/naustica/openalex) |  02.02.2024  | All | 32.433 |
-| 2024-01-25 | publishers/   | openalex.publishers   | schema_openalex_publishers.json   | [Repo](https://github.com/naustica/openalex) |  02.02.2024  | All | 10.249 |
+| 2024-02-27 | authors/      | openalex.authors      | schema_openalex_author.json       | [Repo](https://github.com/naustica/openalex) |  06.03.2024  | All | 90.307.897 |
+| 2024-02-28 | funders/      | openalex.funders      | schema_openalex_funders.json      | [Repo](https://github.com/naustica/openalex) |  06.03.2024  | All | 32.437 |
+| 2024-02-28 | institutions/ | openalex.institutions | schema_openalex_institutions.json | [Repo](https://github.com/naustica/openalex) |  06.03.2024  | All | 107.447 |
+| 2024-02-28 | publishers/   | openalex.publishers   | schema_openalex_publishers.json   | [Repo](https://github.com/naustica/openalex) |  06.03.2024  | All | 10.249 |
+| 2024-02-28 | sources/      | openalex.sources      | schema_openalex_sources.json      | [Repo](https://github.com/naustica/openalex) |  06.03.2024  | All | 251.626 |
+| 2024-02-26 | topics/       | openalex.topics       | schema_openalex_topics.json       | [Repo](https://github.com/naustica/openalex) |  06.03.2024  | All | 4.516 |
+| 2024-02-27 | works/        | openalex.works        | schema_openalex_work.json         | [Repo](https://github.com/naustica/openalex) |  06.03.2024  | All | 249.110.142 |
