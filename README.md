@@ -9,7 +9,7 @@ This documentation serves as an overview of bibliometric data provided on Google
 
 | Snapshot        | File            | Table               | Schema               | Procedure | Last Changed | Coverage  | Number of rows |
 |-----------------|-----------------|---------------------|----------------------|-----------|--------------|-----------|--------------------|
-|  2024/03        | all.json.tar.gz | cr_instant.snapshot | schema_crossref.json | [Repo](https://github.com/naustica/crossref_bq) |  09.04.2024  | 2013-2024 | 47.185.018 |
+|  2024/04        | all.json.tar.gz | cr_instant.snapshot | schema_crossref.json | [Repo](https://github.com/naustica/crossref_bq) |  07.05.2024  | 2013-2024 | 47.709.184 |
 
 ### Historical Snapshots (cr_history)
 
@@ -21,6 +21,7 @@ This documentation serves as an overview of bibliometric data provided on Google
 |  2021/04        | all.json.tar.gz | cr_history.cr_apr21 | schema_crossref.json | [Repo](https://github.com/naustica/crossref_bq) |  29.10.2021  | 2013-2021 | 30.579.119 |
 |  2022/04        | all.json.tar.gz | cr_history.cr_apr22 | schema_crossref.json | [Repo](https://github.com/naustica/crossref_bq) |  14.05.2022  | 2013-2022 | 35.939.195 |
 |  2023/04        | all.json.tar.gz | cr_history.cr_apr23 | schema_crossref.json | [Repo](https://github.com/naustica/crossref_bq) |  07.05.2023  | 2013-2023 | 41.767.461 |
+|  2024/04        | all.json.tar.gz | cr_hsitory.cr_apr24 | schema_crossref.json | [Repo](https://github.com/naustica/crossref_bq) |  07.05.2024  | 2013-2024 | 47.709.184 |
 
 ## Status Unpaywall
 
