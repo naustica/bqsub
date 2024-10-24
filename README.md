@@ -41,6 +41,13 @@ This documentation serves as an overview of bibliometric data provided on Google
 | 2021/02 | unpaywall_snapshot_2021-02-18T160139.jsonl.gz | [upw_history.upw_Feb21_08_21](https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1ssubugoe-collaborative!2supw_history) | bq_schema_feb21.json | [Repo](https://github.com/naustica/unpaywall_bq) |  29.10.2021  | 2008-2021 | 58.437.927 |
 | 2022/03 | unpaywall_snapshot_2022-03-09T083001.jsonl.gz | [upw_history.upw_Mar22_08_22](https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1ssubugoe-collaborative!2supw_history) | bq_schema_mar22.json | [Repo](https://github.com/naustica/unpaywall_bq) |  14.03.2022 | 2008-2022 | 67.424.819 |
 
+## Status Semantic Scholar 
+
+| Snapshot   | Directory    | Table                | Schema               | Procedure | Last Changed | Coverage  | Number of rows |
+|------------|--------------|----------------------|----------------------|-----------|--------------|-----------|-----------------|
+| 2024-05-28 | papers/      | [semantic_scholar.papers](https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1ssubugoe-collaborative!2ssemantic_scholar) | / | [Repo](https://github.com/naustica/MA/blob/main/download_papers.py) |  10.06.2024 | All | 218.668.220 |
+| 2024-05-28 | venues/      | [semantic_scholar.venues](https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1ssubugoe-collaborative!2ssemantic_scholar) | / | [Repo](https://github.com/naustica/MA/blob/main/download_venues.py) |  10.06.2024 | All | 194.578 |
+
 ## Status Openalex
 
 | Snapshot   | Directory     | Table                 | Schema                            | Procedure | Last Changed | Coverage  | Number of rows |
@@ -52,3 +59,10 @@ This documentation serves as an overview of bibliometric data provided on Google
 | 2024-09-28 | sources/      | [openalex.sources](https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1ssubugoe-collaborative!2sopenalex)      | schema_openalex_sources.json      | [Repo](https://github.com/naustica/openalex) |  09.10.2024  | All | 254.533 |
 | 2024-09-23 | topics/       | [openalex.topics](https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1ssubugoe-collaborative!2sopenalex)       | schema_openalex_topics.json       | [Repo](https://github.com/naustica/openalex) |  09.10.2024  | All | 4.516 |
 | 2024-09-27 | works/        | [openalex.works](https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1ssubugoe-collaborative!2sopenalex)        | schema_openalex_work.json         | [Repo](https://github.com/naustica/openalex) |  09.10.2024  | All | 259.375.778 |
+
+## Status OpenAlex Document Type classification by SUB Göttingen
+
+| Snapshot   | Directory    | Table                | Schema               | Procedure | Last Changed | Coverage  | Number of rows |
+|------------|--------------|----------------------|----------------------|-----------|--------------|-----------|-----------------|
+| 2024-09-27 | works/       | [resources.classification_article_reviews_september_2024](https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1ssubugoe-collaborative!2sresources) | schema_document_types.json | [Repo](https://github.com/naustica/openalex_doctypes/tree/classifier/classifier) |  15.10.2024 | All | 151.099.815 |
+
