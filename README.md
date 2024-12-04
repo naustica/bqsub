@@ -64,5 +64,5 @@ This documentation serves as an overview of bibliometric data provided on Google
 
 | Snapshot   | Directory    | Table                | Schema               | Procedure | Last Changed | Coverage  | Number of rows |
 |------------|--------------|----------------------|----------------------|-----------|--------------|-----------|-----------------|
-| 2024-10-30 | works/       | [resources.classification_article_reviews_october_2024](https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1ssubugoe-collaborative!2sresources) | schema_document_types.json | [Repo](https://github.com/naustica/openalex_doctypes/tree/classifier/classifier) |  06.11.2024 | All | 151.719.141 |
+| 2024-11-25 | works/       | [resources.classification_article_reviews_november_2024](https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1ssubugoe-collaborative!2sresources) | schema_document_types.json | [Repo](https://github.com/naustica/openalex_doctypes/tree/classifier/classifier) |  04.12.2024 | All | 152.162.123 |
 
