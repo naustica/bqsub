@@ -45,8 +45,8 @@ This documentation serves as an overview of bibliometric data provided on Google
 
 | Snapshot   | Directory    | Table                | Schema               | Procedure | Last Changed | Coverage  | Number of rows |
 |------------|--------------|----------------------|----------------------|-----------|--------------|-----------|-----------------|
-| 2025-02-25 | papers/      | [semantic_scholar.papers](https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1ssubugoe-collaborative!2ssemantic_scholar) | papers_schema.json | [Repo](https://github.com/naustica/semantic_scholar_bq) |  04.03.2025 | All | 224.566.486 |
-| 2025-02-25 | venues/      | [semantic_scholar.venues](https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1ssubugoe-collaborative!2ssemantic_scholar) | venues_schema.json | [Repo](https://github.com/naustica/semantic_scholar_bq) |  04.03.2025 | All | 194.578 |
+| 2025-02-25 | papers/      | [semantic_scholar.papers](https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1ssubugoe-collaborative!2ssemantic_scholar) | s2_papers_schema.json | [Repo](https://github.com/naustica/semantic_scholar_bq) |  04.03.2025 | All | 224.566.486 |
+| 2025-02-25 | venues/      | [semantic_scholar.venues](https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1ssubugoe-collaborative!2ssemantic_scholar) | s2_venues_schema.json | [Repo](https://github.com/naustica/semantic_scholar_bq) |  04.03.2025 | All | 194.578 |
 
 ## Status Openalex
 

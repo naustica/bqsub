@@ -1,0 +1,50 @@
+[
+  {
+    "description": "",
+    "mode": "NULLABLE",
+    "name": "type",
+    "type": "STRING"
+  },
+  {
+    "description": "",
+    "mode": "NULLABLE",
+    "name": "name",
+    "type": "STRING"
+  },
+  {
+    "description": "",
+    "mode": "NULLABLE",
+    "name": "id",
+    "type": "STRING"
+  },
+  {
+    "description": "",
+    "mode": "NULLABLE",
+    "name": "issn",
+    "type": "STRING"
+  },
+  {
+    "description": "",
+    "mode": "REPEATED",
+    "name": "alternate_urls",
+    "type": "STRING"
+  },
+  {
+    "description": "",
+    "mode": "REPEATED",
+    "name": "alternate_issns",
+    "type": "STRING"
+  },
+  {
+    "description": "",
+    "mode": "NULLABLE",
+    "name": "url",
+    "type": "STRING"
+  },
+  {
+    "description": "",
+    "mode": "REPEATED",
+    "name": "alternate_names",
+    "type": "STRING"
+  }
+]

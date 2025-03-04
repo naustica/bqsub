@@ -1,0 +1,177 @@
+[
+  {
+    "description": "",
+    "mode": "NULLABLE",
+    "name": "publicationdate",
+    "type": "DATE"
+  },
+  {
+    "description": "",
+    "mode": "NULLABLE",
+    "name": "influentialcitationcount",
+    "type": "INTEGER"
+  },
+  {
+    "description": "",
+    "mode": "NULLABLE",
+    "name": "citationcount",
+    "type": "INTEGER"
+  },
+  {
+    "description": "",
+    "mode": "NULLABLE",
+    "name": "year",
+    "type": "INTEGER"
+  },
+  {
+    "description": "",
+    "mode": "NULLABLE",
+    "name": "publicationvenueid",
+    "type": "STRING"
+  },
+  {
+    "description": "",
+    "mode": "REPEATED",
+    "name": "publicationtypes",
+    "type": "STRING"
+  },
+  {
+    "fields": [
+      {
+        "mode": "NULLABLE",
+        "name": "PubMedCentral",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "PubMed",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "MAG",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "DOI",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "CorpusId",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "ArXiv",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "DBLP",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "ACL",
+        "type": "STRING"
+      }
+    ],
+    "mode": "NULLABLE",
+    "name": "externalids",
+    "type": "RECORD"
+  },
+  {
+    "description": "",
+    "mode": "NULLABLE",
+    "name": "referencecount",
+    "type": "INTEGER"
+  },
+  {
+    "description": "",
+    "mode": "NULLABLE",
+    "name": "venue",
+    "type": "STRING"
+  },
+  {
+    "fields": [
+      {
+        "mode": "NULLABLE",
+        "name": "volume",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "pages",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "name",
+        "type": "STRING"
+      }
+    ],
+    "mode": "NULLABLE",
+    "name": "journal",
+    "type": "RECORD"
+  },
+  {
+    "fields": [
+      {
+        "mode": "NULLABLE",
+        "name": "name",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "authorid",
+        "type": "INTEGER"
+      }
+    ],
+    "mode": "REPEATED",
+    "name": "authors",
+    "type": "RECORD"
+  },
+  {
+    "description": "",
+    "mode": "NULLABLE",
+    "name": "title",
+    "type": "STRING"
+  },
+  {
+    "description": "",
+    "mode": "NULLABLE",
+    "name": "isopenaccess",
+    "type": "BOOLEAN"
+  },
+  {
+    "description": "",
+    "mode": "NULLABLE",
+    "name": "corpusid",
+    "type": "INTEGER"
+  },
+  {
+    "fields": [
+      {
+        "mode": "NULLABLE",
+        "name": "source",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "category",
+        "type": "STRING"
+      }
+    ],
+    "mode": "REPEATED",
+    "name": "s2fieldsofstudy",
+    "type": "RECORD"
+  },
+  {
+    "description": "",
+    "mode": "NULLABLE",
+    "name": "url",
+    "type": "STRING"
+  }
+]

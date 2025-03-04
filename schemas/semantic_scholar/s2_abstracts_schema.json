@@ -1,0 +1,68 @@
+[
+  {
+    "description": "",
+    "mode": "NULLABLE",
+    "name": "abstract",
+    "type": "STRING"
+  },
+  {
+    "fields": [
+      {
+        "mode": "NULLABLE",
+        "name": "status",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "url",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "license",
+        "type": "STRING"
+      },
+      {
+      "fields": [
+        {
+          "mode": "NULLABLE",
+          "name": "PubMedCentral",
+          "type": "INTEGER"
+        },
+        {
+          "mode": "NULLABLE",
+          "name": "MAG",
+          "type": "INTEGER"
+        },
+        {
+          "mode": "NULLABLE",
+          "name": "DOI",
+          "type": "STRING"
+        },
+        {
+          "mode": "NULLABLE",
+          "name": "ArXiv",
+          "type": "STRING"
+        },
+        {
+          "mode": "NULLABLE",
+          "name": "ACL",
+          "type": "STRING"
+        }
+      ],
+      "mode": "NULLABLE",
+      "name": "externalids",
+      "type": "RECORD"
+      }
+    ],
+    "mode": "REPEATED",
+    "name": "openaccessinfo",
+    "type": "RECORD"
+  },
+  {
+    "description": "",
+    "mode": "NULLABLE",
+    "name": "corpusid",
+    "type": "INTEGER"
+  }
+]
