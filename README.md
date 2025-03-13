@@ -70,7 +70,7 @@ Info: Only includes publications with type 'journal-article'
 
 ## Status OpenAlex Document Type classification by SUB Göttingen
 
-Info: Only includes publications with type 'article' and 'review' with primary source type 'journal'
+Info: Only includes publications with type 'article' or 'review' and primary source type 'journal'
 
 | Snapshot   | Directory    | Table                | Schema               | Procedure | Last Changed | Coverage  | Number of rows |
 |------------|--------------|----------------------|----------------------|-----------|--------------|-----------|-----------------|
