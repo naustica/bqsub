@@ -65,6 +65,24 @@ Info: Only includes publications with type 'journal-article'
 | 2025-03-31 | topics/       | [openalex.topics](https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1ssubugoe-collaborative!2sopenalex)       | schema_openalex_topics.json       | [Repo](https://github.com/naustica/openalex) |  11.04.2025  | All | 4.516 |
 | 2025-03-31 | works/        | [openalex.works](https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1ssubugoe-collaborative!2sopenalex)        | schema_openalex_work.json         | [Repo](https://github.com/naustica/openalex) |  11.04.2025  | All | 265.686.607 |
 
+## Status OPENBIB
+
+| Snapshot   | Table                 | Schema                            | Procedure | Last Changed | Coverage  | Number of rows |
+|------------|-----------------------|-----------------------------------|-----------|--------------|-----------|----------------------|
+| 2025-05-01 | [openbib.publishers](https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1ssubugoe-collaborative!2sopenbib) | schema_openbib_publishers.json | [Repo](https://github.com/kbopenbib/kbopenbib_data/) | 11.04.2025 | 2014-2024 | 373 |
+| 2025-05-01 | [openbib.publishers_relation](https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1ssubugoe-collaborative!2sopenbib) | schema_openbib_publishers_relation.json | [Repo](https://github.com/kbopenbib/kbopenbib_data/) | 11.04.2025 | 2014-2024 | 212 |
+| 2025-05-01 | [openbib.funding_information](https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1ssubugoe-collaborative!2sopenbib) | schema_openbib_funding_information.json | [Repo](https://github.com/kbopenbib/kbopenbib_data/) | 14.04.2025 | 2020-2024 | 9.255 |
+| 2025-05-01 | [openbib.document_types](https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1ssubugoe-collaborative!2sopenbib) | schema_openbib_document_types.json | [Repo](https://github.com/kbopenbib/kbopenbib_data/) | 28.03.2025 | 2014-2024 | 56.063.628 |
+| 2025-05-01 | [openbib.kb_a_addr_inst](https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1ssubugoe-collaborative!2sopenbib) | schema_openbib_kb_a_addr_inst.json | [Repo](https://github.com/kbopenbib/kbopenbib_data/) | 14.04.2025 | All | 9.903.725 |
+| 2025-05-01 | [openbib.kb_s_addr_inst](https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1ssubugoe-collaborative!2sopenbib) | schema_openbib_kb_s_addr_inst.json | [Repo](https://github.com/kbopenbib/kbopenbib_data/) | 14.04.2025 | All | 9.900.278 |
+| 2025-05-01 | [openbib.kb_inst](https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1ssubugoe-collaborative!2sopenbib) | schema_openbib_kb_inst.json | [Repo](https://github.com/kbopenbib/kbopenbib_data/) | 14.04.2025 | All | 2.759 |
+| 2025-05-01 | [openbib.kb_inst_trans](https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1ssubugoe-collaborative!2sopenbib) | schema_openbib_kb_inst_trans.json | [Repo](https://github.com/kbopenbib/kbopenbib_data/) | 28.03.2025 | All | 91 |
+| 2025-05-01 | [openbib.kb_sectors](https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1ssubugoe-collaborative!2sopenbib) | schema_openbib_kb_sectors.json | [Repo](https://github.com/kbopenbib/kbopenbib_data/) | 28.03.2025 | All | 22 |
+| 2025-05-01 | [openbib.jct_articles](https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1ssubugoe-collaborative!2sopenbib) | schema_openbib_jct_articles.json | [Repo](https://github.com/kbopenbib/kbopenbib_data/) | 14.04.2025 | 2018-2025 | 1.996.190 |
+| 2025-05-01 | [openbib.jct_esac](https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1ssubugoe-collaborative!2sopenbib) | schema_openbib_jct_esac.json | [Repo](https://github.com/kbopenbib/kbopenbib_data/) | 14.04.2025 | 2018-2025 | 1.285 |
+| 2025-05-01 | [openbib.jct_institutions](https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1ssubugoe-collaborative!2sopenbib) | schema_openbib_jct_institutions.json | [Repo](https://github.com/kbopenbib/kbopenbib_data/) | 14.04.2025 | 2018-2025 | 28.007 |
+| 2025-05-01 | [openbib.jct_journals](https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1ssubugoe-collaborative!2sopenbib) | schema_openbib_jct_journals.json | [Repo](https://github.com/kbopenbib/kbopenbib_data/) | 14.04.2025 | 2018-2025 | 491.218 |
+
 ## Status OpenAlex Document Type classification by SUB Göttingen
 
 Info: Only includes publications with type 'article' or 'review' and primary source type 'journal'
