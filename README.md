@@ -31,7 +31,7 @@ Info: Only includes publications with type 'journal-article'
 
 | Snapshot| File                                          | Table                | Schema               | Procedure | Last Changed | Coverage  | Number of rows |
 |---------|-----------------------------------------------|----------------------|----------------------|-----------|--------------|-----------|-----------------|
-| 2022/03 | unpaywall_snapshot_2022-03-09T083001.jsonl.gz | [upw_instant.snapshot](https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1ssubugoe-collaborative!2supw_instant) | bq_schema_mar22.json | [Repo](https://github.com/naustica/unpaywall_bq) |  14.03.2022 | 2008-2022 | 67.424.819 |
+| 2024/11 | unpaywall_snapshot_2024-11-27T031702.jsonl.gz | [upw_instant.snapshot](https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1ssubugoe-collaborative!2supw_instant) | bq_schema_nov24.json | [Repo](https://github.com/naustica/unpaywall_bq) | 23.06.2025 | 2008-2025 | 94.924.816 |
 
 ### Historical Snapshots (upw_history)
 
