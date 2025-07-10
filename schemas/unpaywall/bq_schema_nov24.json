@@ -1,0 +1,240 @@
+[
+  {
+    "description": "The DOI of this resource. This is always lowercase.",
+    "mode": "NULLABLE",
+    "name": "doi",
+    "type": "STRING"
+  },
+  {
+    "description": "The type of resource, currently identical to the Crossref-reported type of a given resource. Here, only the `journal-article` type is considered, but there are many others.",
+    "mode": "NULLABLE",
+    "name": "genre",
+    "type": "STRING"
+  },
+{
+    "description": "Has a copy of the resource been found on a location classified as repository?",
+    "mode": "NULLABLE",
+    "name": "has_repository_copy",
+    "type": "BOOLEAN"
+  },
+  {
+    "description": "Is the resource an ancillary part of the journal, e.g., a table of contents? Presumably manually classified.",
+    "mode": "NULLABLE",
+    "name": "is_paratext",
+    "type": "BOOLEAN"
+  },
+  {
+    "description": "Indicates whether there is an OA copy of this resource.",
+    "mode": "NULLABLE",
+    "name": "is_oa",
+    "type": "BOOLEAN"
+  },
+  {
+    "description": "Indicates whether this resource is published in a DOAJ-indexed journal.",
+    "mode": "NULLABLE",
+    "name": "journal_is_in_doaj",
+    "type": "BOOLEAN"
+  },
+  {
+    "description": "Indicates whether this resource published in a completely OA journal. Under construction. Included for future compatibility. Will eventually include any fully-OA publication venue, regardless of inclusion in DOAJ.",
+    "mode": "NULLABLE",
+    "name": "journal_is_oa",
+    "type": "BOOLEAN"
+  },
+  {
+    "description": "The ISSN_L of the journal publishing this resource.",
+    "mode": "NULLABLE",
+    "name": "journal_issn_l",
+    "type": "STRING"
+  },
+  {
+    "description": "Any ISSNs assigned to the journal publishing this resource.Separate ISSNs are sometimes assigned to print and electronic versions of the same journal. If there are multiple ISSNs, they are separated by commas. Separate ISSNs are sometimes assigned to print and electronic versions of the same journal. If there are multiple ISSNs, they are separated by commas. Example: `1232-1203,1532-6203`",
+    "mode": "NULLABLE",
+    "name": "journal_issns",
+    "type": "STRING"
+  },
+  {
+    "description": "The name of the journal publishing this resource. The same journal may have multiple name strings (eg, `J. Foo`, \"Journal of Foo\", \"JOURNAL OF FOO\", etc). These have not been fully normalized within the database, so use with care.",
+    "mode": "NULLABLE",
+    "name": "journal_name",
+    "type": "STRING"
+  },
+  {
+    "description": "The OA Location object describes a particular place where we found a given OA article. The same article is often available from multiple locations, and there may be differences in format, version, and license depending on the location; the OA Location object describes these key attributes. An OA Location Object is always a Child of a DOI Object.",
+    "fields": [
+      {
+        "description": "How Unpaywall found this OA location. Used for debugging. Do not depend on the exact contents of this for anything, because values are subject to change without warning. Example values: `oa journal (via journal title in doaj)`:  name of the journal that publishes this article found in the DOAJ database; `oa repository (via pmcid lookup)`: article found in an index of PubMed Central articles.",
+        "mode": "NULLABLE",
+        "name": "evidence",
+        "type": "STRING"
+      },
+      {
+        "description": "The type of host that serves this OA location. There are two possible values: `publisher` means the this location is served by the article's publisher (in practice, this means it is hosted on the same domain the DOI resolves to); `repository` means this location is served by an Open Access repository.",
+        "mode": "NULLABLE",
+        "name": "host_type",
+        "type": "STRING"
+      },
+      {
+        "description": "Is this location the `best_oa_location` for its resource?",
+        "mode": "NULLABLE",
+        "name": "is_best",
+        "type": "BOOLEAN"
+      },
+      {
+        "description": "The license under which this copy is published, returns several types of licenses: Creative Commons licenses are uniformly abbreviated and lowercased (Example: `cc-by-nc`); Publisher-specific licenses are normalized using this format: `acs-specific: authorchoice/editors choice usage agreement`; When we have evidence that an OA license of some kind was used, but it is not reported directly on the webpage at this location, this field returns `implied-oa`.",
+        "mode": "NULLABLE",
+        "name": "license",
+        "type": "STRING"
+      },
+      {
+        "description": "When this document first became available at this location. oa_date is calculated differently for different host types and is not available for all oa_locations.",
+        "mode": "NULLABLE",
+        "name": "oa_date",
+        "type": "STRING"
+      },
+      {
+        "description": "OAI-PMH endpoint where we found this location. This is primarily for internal debugging. It's `Null` for locations that weren't found using OAI-PMH.",
+        "mode": "NULLABLE",
+        "name": "pmh_id",
+        "type": "STRING"
+      },
+      {
+        "description": "Time when the data for this location was last updated. Returned as an ISO8601-formatted timestamp. Example: 2017-08-17T23:43:27.753663`",
+        "mode": "NULLABLE",
+        "name": "updated",
+        "type": "TIMESTAMP"
+      },
+      {
+        "description": "Hosting institution of the repository, presumably derived from the (sub-)domain of the url.",
+        "mode": "NULLABLE",
+        "name": "repository_institution",
+        "type": "STRING"
+      },
+      {
+        "description": "The URL for a landing page describing this OA copy. When the `host_type` is `publisher` the landing page usually includes HTML fulltext.",
+        "mode": "NULLABLE",
+        "name": "url_for_landing_page",
+        "type": "STRING"
+      },
+      {
+        "description": "The URL with a PDF version of this OA copy.",
+        "mode": "NULLABLE",
+        "name": "url_for_pdf",
+        "type": "STRING"
+      },
+      {
+        "description": "The content version accessible at this location. Unpaywall uses the DRIVER Guidelines v2.0 VERSION standard to define versions of a given article; see those docs for complete definitions of terms. Here's the basic idea, though, for the three version types they support: `submittedVersion` is not yet peer-reviewed; `acceptedVersion` is peer-reviewed, but lacks publisher-specific formatting; `publishedVersion` is the version of record.",
+        "mode": "NULLABLE",
+        "name": "version",
+        "type": "STRING"
+      }
+    ],
+    "mode": "REPEATED",
+    "name": "oa_locations",
+    "type": "RECORD"
+  },
+  {
+    "description": "This list includes locations that we expect to be available in the future based on information like license metadata and journals' delayed OA policies. They do not affect the resource's oa_status and cannot be the best_oa_location or first_oa_location.",
+    "fields": [
+      {
+        "description": "How Unpaywall found this OA location. Used for debugging. Do not depend on the exact contents of this for anything, because values are subject to change without warning. Example values: `oa journal (via journal title in doaj)`:  name of the journal that publishes this article found in the DOAJ database; `oa repository (via pmcid lookup)`: article found in an index of PubMed Central articles.",
+        "mode": "NULLABLE",
+        "name": "evidence",
+        "type": "STRING"
+      },
+      {
+        "description": "The type of host that serves this OA location. There are two possible values: `publisher` means the this location is served by the article's publisher (in practice, this means it is hosted on the same domain the DOI resolves to); `repository` means this location is served by an Open Access repository.",
+        "mode": "NULLABLE",
+        "name": "host_type",
+        "type": "STRING"
+      },
+      {
+        "description": "Is this location the `best_oa_location` for its resource?",
+        "mode": "NULLABLE",
+        "name": "is_best",
+        "type": "BOOLEAN"
+      },
+      {
+        "description": "The license under which this copy is published, returns several types of licenses: Creative Commons licenses are uniformly abbreviated and lowercased (Example: `cc-by-nc`); Publisher-specific licenses are normalized using this format: `acs-specific: authorchoice/editors choice usage agreement`; When we have evidence that an OA license of some kind was used, but it is not reported directly on the webpage at this location, this field returns `implied-oa`.",
+        "mode": "NULLABLE",
+        "name": "license",
+        "type": "STRING"
+      },
+      {
+        "description": "When this document first became available at this location. oa_date is calculated differently for different host types and is not available for all oa_locations.",
+        "mode": "NULLABLE",
+        "name": "oa_date",
+        "type": "STRING"
+      },
+      {
+        "description": "OAI-PMH endpoint where we found this location. This is primarily for internal debugging. It's `Null` for locations that weren't found using OAI-PMH.",
+        "mode": "NULLABLE",
+        "name": "pmh_id",
+        "type": "STRING"
+      },
+      {
+        "description": "Time when the data for this location was last updated. Returned as an ISO8601-formatted timestamp. Example: 2017-08-17T23:43:27.753663`",
+        "mode": "NULLABLE",
+        "name": "updated",
+        "type": "TIMESTAMP"
+      },
+      {
+        "description": "Hosting institution of the repository, presumably derived from the (sub-)domain of the url.",
+        "mode": "NULLABLE",
+        "name": "repository_institution",
+        "type": "STRING"
+      },
+      {
+        "description": "The URL for a landing page describing this OA copy. When the `host_type` is `publisher` the landing page usually includes HTML fulltext.",
+        "mode": "NULLABLE",
+        "name": "url_for_landing_page",
+        "type": "STRING"
+      },
+      {
+        "description": "The URL with a PDF version of this OA copy.",
+        "mode": "NULLABLE",
+        "name": "url_for_pdf",
+        "type": "STRING"
+      },
+      {
+        "description": "The content version accessible at this location. Unpaywall uses the DRIVER Guidelines v2.0 VERSION standard to define versions of a given article; see those docs for complete definitions of terms. Here's the basic idea, though, for the three version types they support: `submittedVersion` is not yet peer-reviewed; `acceptedVersion` is peer-reviewed, but lacks publisher-specific formatting; `publishedVersion` is the version of record.",
+        "mode": "NULLABLE",
+        "name": "version",
+        "type": "STRING"
+      }
+    ],
+    "mode": "REPEATED",
+    "name": "oa_locations_embargoed",
+    "type": "RECORD"
+  },
+  {
+    "description": "Open Access type. Possible values are gold, hybrid, bronze, green and closed. Categories are exclusive and labels are assigned in this hierarchy.",
+    "mode": "NULLABLE",
+    "name": "oa_status",
+    "type": "STRING"
+  },
+  {
+    "description": "The name of this resource's publisher. Keep in mind that publisher name strings change over time, particularly as publishers are acquired or split up.",
+    "mode": "NULLABLE",
+    "name": "publisher",
+    "type": "STRING"
+  },
+{
+    "description": "The date this resource was published as reported by the publishers.",
+    "mode": "NULLABLE",
+    "name": "published_date",
+    "type": "STRING"
+  },
+  {
+    "description": "Time when the data for this resource was last updated. Returned as an ISO8601-formatted timestamp. Example: `2017-08-17T23:43:27.753663`",
+    "mode": "NULLABLE",
+    "name": "doi_updated",
+    "type": "TIMESTAMP"
+  },
+  {
+    "description": "The year this resource was published. Just uses the year part of the `published_date`.",
+    "mode": "NULLABLE",
+    "name": "year",
+    "type": "INTEGER"
+  }
+]
