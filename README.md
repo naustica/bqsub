@@ -87,5 +87,5 @@ Info: Only includes publications with type 'article' or 'review' and primary sou
 
 | Snapshot   | Directory    | Table                | Schema               | Procedure | Last Changed | Coverage  | Number of rows |
 |------------|--------------|----------------------|----------------------|-----------|--------------|-----------|-----------------|
-| 2025-07-07 | works/       | [resources.document_classification_july25](https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1ssubugoe-collaborative!2sresources) | schema_document_types.json | [Repo](https://github.com/naustica/openalex_doctypes/tree/classifier/classifier) | 15.07.2025 | 2014-2025 | 61.495.813 |
+| 2025-08-21 | works/       | [resources.document_classification_august25](https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1ssubugoe-collaborative!2sresources) | schema_document_types.json | [Repo](https://github.com/naustica/openalex_doctypes/tree/classifier/classifier) | 05.09.2025 | 2014-2025 | 62.204.042 |
 
