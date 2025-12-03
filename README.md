@@ -67,13 +67,13 @@ Info: Only includes publications with type 'journal-article'
 
 | Snapshot   | Directory     | Table                 | Schema                            | Procedure | Last Changed | Coverage  | Number of rows |
 |------------|---------------|-----------------------|-----------------------------------|-----------|--------------|-----------|----------------------|
-| 2025-11-05 | authors/      | [openalex.authors](https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1ssubugoe-collaborative!2sopenalex)      | schema_openalex_author.json       | [Repo](https://github.com/naustica/openalex) |  03.12.2025  | All | 115.794.829 |
-| 2023-02-13 | funders/      | [openalex.funders](https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1ssubugoe-collaborative!2sopenalex)      | schema_openalex_funders.json      | [Repo](https://github.com/naustica/openalex) |  03.12.2025  | All | 32.437 |
-| 2025-11-11 | institutions/ | [openalex.institutions](https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1ssubugoe-collaborative!2sopenalex) | schema_openalex_institutions.json | [Repo](https://github.com/naustica/openalex) |  03.12.2025  | All | 102.539 |
-| 2025-07-02 | publishers/   | [openalex.publishers](https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1ssubugoe-collaborative!2sopenalex)   | schema_openalex_publishers.json   | [Repo](https://github.com/naustica/openalex) |  03.12.2025  | All | 16 |
-| 2025-11-02 | sources/      | [openalex.sources](https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1ssubugoe-collaborative!2sopenalex)      | schema_openalex_sources.json      | [Repo](https://github.com/naustica/openalex) |  03.12.2025  | All | 255.250 |
-| 2024-12-04 | topics/       | [openalex.topics](https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1ssubugoe-collaborative!2sopenalex)       | schema_openalex_topics.json       | [Repo](https://github.com/naustica/openalex) |  03.12.2025  | All | 4.516 |
-| 2025-11-11 | works/        | [openalex.works](https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1ssubugoe-collaborative!2sopenalex)        | schema_openalex_work.json         | [Repo](https://github.com/naustica/openalex) |  03.12.2025  | All | 463.042.077 |
+| 2025-11-05 | authors/      | [openalex.authors](https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1ssubugoe-collaborative!2sopenalex_walden)      | schema_openalex_author.json       | [Repo](https://github.com/naustica/openalex) |  03.12.2025  | All | 115.794.829 |
+| 2023-02-13 | funders/      | [openalex.funders](https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1ssubugoe-collaborative!2sopenalex_walden)      | schema_openalex_funders.json      | [Repo](https://github.com/naustica/openalex) |  03.12.2025  | All | 32.437 |
+| 2025-11-11 | institutions/ | [openalex.institutions](https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1ssubugoe-collaborative!2sopenalex_walden) | schema_openalex_institutions.json | [Repo](https://github.com/naustica/openalex) |  03.12.2025  | All | 102.539 |
+| 2025-07-02 | publishers/   | [openalex.publishers](https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1ssubugoe-collaborative!2sopenalex_walden)   | schema_openalex_publishers.json   | [Repo](https://github.com/naustica/openalex) |  03.12.2025  | All | 16 |
+| 2025-11-02 | sources/      | [openalex.sources](https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1ssubugoe-collaborative!2sopenalex_walden)      | schema_openalex_sources.json      | [Repo](https://github.com/naustica/openalex) |  03.12.2025  | All | 255.250 |
+| 2024-12-04 | topics/       | [openalex.topics](https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1ssubugoe-collaborative!2sopenalex_walden)       | schema_openalex_topics.json       | [Repo](https://github.com/naustica/openalex) |  03.12.2025  | All | 4.516 |
+| 2025-11-11 | works/        | [openalex.works](https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1ssubugoe-collaborative!2sopenalex_walden)        | schema_openalex_work.json         | [Repo](https://github.com/naustica/openalex) |  03.12.2025  | All | 463.042.077 |
 
 ## Status OPENBIB
 
