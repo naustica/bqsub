@@ -91,6 +91,8 @@ Info: Only includes publications with type 'journal-article'
 | 2025-07-11 | [openbib.jct_esac](https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1ssubugoe-collaborative!2sopenbib) | schema_openbib_jct_esac.json | [Repo](https://github.com/kbopenbib/kbopenbib_data/) | 18.12.2025 | 2018-2025 | 1.445 |
 | 2025-07-11 | [openbib.jct_institutions](https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1ssubugoe-collaborative!2sopenbib) | schema_openbib_jct_institutions.json | [Repo](https://github.com/kbopenbib/kbopenbib_data/) | 18.12.2025 | 2018-2025 | 36.561 |
 | 2025-07-11 | [openbib.jct_journals](https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1ssubugoe-collaborative!2sopenbib) | schema_openbib_jct_journals.json | [Repo](https://github.com/kbopenbib/kbopenbib_data/) | 18.12.2025 | 2018-2025 | 562.156 |
+| 2025-07-11 | [openbib.author_disambiguation_author_level](https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1ssubugoe-collaborative!2sopenbib) | schema_openbib_author_disambiguation_author_level.json | [Repo](https://github.com/kbopenbib/kbopenbib_data/) | 26.01.2026 | 2000-2024 | 9.165.443 |
+| 2025-07-11 | [openbib.author_disambiguation_work_level](https://console.cloud.google.com/bigquery?ws=!1m4!1m3!3m2!1ssubugoe-collaborative!2sopenbib) | schema_openbib_author_disambiguation_work_level.json | [Repo](https://github.com/kbopenbib/kbopenbib_data/) | 26.01.2026 | 2000-2024 | 2.786.294 |
 
 ## Status OpenAlex Document Type classification by SUB Göttingen
 
