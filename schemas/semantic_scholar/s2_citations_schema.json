@@ -1,0 +1,20 @@
+[
+  {
+    "description": "",
+    "mode": "NULLABLE",
+    "name": "citationid",
+    "type": "INTEGER"
+  },
+  {
+    "description": "",
+    "mode": "NULLABLE",
+    "name": "citingcorpusid",
+    "type": "INTEGER"
+  },
+  {
+    "description": "",
+    "mode": "NULLABLE",
+    "name": "citedcorpusid",
+    "type": "INTEGER"
+  }
+]
